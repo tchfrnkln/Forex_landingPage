@@ -19,16 +19,16 @@ function FrontPage() {
                 <button className='px-10 p-4 font-bold text-xs rounded-full bg-green-400 text-black my-6'>Register</button>
             </div>
             {/* Image */}
-            <div className='p-6 rounded relative bg-cover bg-center w-full md:w-4/5 h-[300px]' style={{backgroundImage:`url("https://i0.wp.com/silasumekwe.com/wp-content/uploads/2022/01/photo_2022-01-16-00.14.06.jpeg?w=1280&ssl=1")`}}>
+            <div className='p-6 rounded relative bg-cover bg-center w-full md:w-4/5 lg:w-3/5 h-[300px]' style={{backgroundImage:`url("https://i0.wp.com/silasumekwe.com/wp-content/uploads/2022/01/photo_2022-01-16-00.14.06.jpeg?w=1280&ssl=1")`}}>
                 <div className="absolute h-max -left-3 top-48 w-[200px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
                     <p className='font-bold'>Silas Umekwe</p>
                     <p>Founder & CEO of over seven privately held companies</p>
                 </div>
-                <div className="absolute h-max top-10 -right-2 md:-right-8 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
+                <div className="absolute h-max top-10 md:top-24 -right-2 md:-right-8 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
                     <p className='font-bold'>14 Years</p>
                     <p>of experience on Investing and Forex Trading</p>
                 </div>
-                <div className="absolute h-max -bottom-4 left-32 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
+                <div className="absolute h-max -bottom-6 left-32 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
                     <p className='font-bold'>Author</p>
                     <p>Understanding Bitcoin: A Step-by-step guide to investing in Bitcoin</p>
                 </div>
@@ -48,14 +48,12 @@ function FrontPage() {
                 <button className='hidden px-10 p-4 font-bold text-xs rounded-full bg-green-400 text-black my-6'>Sign up for training</button>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-2 p-4 md:p-12'>
-                {
-                    values.map(val => (
+                {values.map(val => (
                         <div key={val.key} className='flex flex-col text-xs p-6'>
-                            <p className='font-bold'>{val.head}</p>
+                            <p className='font-bold py-2'>{val.head}</p>
                             <p>{val.list}</p>
                         </div>
-                    ))
-                }
+                    ))}
                 <button className='px-10 p-4 md:hidden font-bold text-xs rounded-full bg-green-400 text-black my-6'>Sign up for training</button>
             </div>
         </div>

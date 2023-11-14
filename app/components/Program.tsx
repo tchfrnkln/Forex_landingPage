@@ -6,7 +6,7 @@ function Program() {
     <main className='w-screen h-max bg-white p-4 md:p-12 text-black overflow-hidden'>
         <h1 className='text-3xl font-bold'>Training Program</h1>
         <p className='text-xs'>4 Sessions under the control of the expert and his team</p>
-        <div className='flex flex-col md:flex-row justify-center'>
+        <div className='flex flex-col md:flex-row justify-center items-center'>
             <div className='py-6 px-2 w-full md:w-2/3'>
             Facing the formidable challenges of 2023, a year marked by economic turbulence, we find ourselves standing at the crossroads of uncertainty. In the midst of adversity, C-CHU Global has committed itself to be a beacon of opportunity for 500 Nigerians who yearn for a brighter 2024. Recognizing the struggles many have endured, we are launching an initiative to empower individuals with the knowledge and skills to navigate the Forex market—a powerful gateway to financial independence.
                         <br></br><br></br>
@@ -31,13 +31,15 @@ function Program() {
                         <br></br><br></br>
             Note: Terms and conditions apply. C-CHU Global reserves the right to close registration once the allocated spaces are filled.
             </div>
-            <div className='grid grid-cols-1 flex-row p-4 md:p-6 w-max gap-2'>{
-                    values.map(val=>(
-                        <div key={val.key} className='text-xs border-4 rounded-lg border-purple-200 w-64 p-6'>
-                            <p className='font-bold py-6 text-lg'>{val.head}</p>
-                            <p>{val.list}</p>
-                        </div>
-                    ))}
+            <div className='w-full md:w-1/3 flex justify-center items-center'>
+                <div className='w-full flex flex-wrap p-2 md:p-6 gap-4'>{
+                        values.map(val=>(
+                            <div key={val.key} className='text-xs border-4 rounded-lg border-purple-300 w-full md:w-64 p-4 md:p-6'>
+                                <p className='font-bold py-2 md:py-6 text-lg'>{val.head}</p>
+                                <p>{val.list}</p>
+                            </div>
+                        ))}
+                </div>
             </div>
         </div>
         <div className='flex justify-center'>
