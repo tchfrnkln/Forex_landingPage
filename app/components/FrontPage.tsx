@@ -4,7 +4,7 @@ import React from 'react'
 
 function FrontPage() {
 
-    var toLearn:{key:number, name:string, body:string }[] = [{key:1, name:"Aspiring Investors", body:"Are you an individual who is looking for investment opportunities, forex trading is a way to diversify your investment portfolio."}, {key:2, name:"Financial Enthusiast", body:"Are you someone who has a genuine interest in financial markets and enjoys learning about economic indicators, currency movements, and global financial trends?"}, {key:3, name:"Entrepreneur and Business Professional", body:"Are you an entrepreneur or business professional who is seeking ways to maximize their financial resources. These is a means to leverage your financial skills and potentially generate additional income beyond all other primary business ventures"}, {key:4, name:"Side-Hustle Seekers", body:"Are you actively seeking ways to supplement your current earnings, exploring forex trading as a side hustle. This is the potential for additional financial gains and flexibility"}]
+    var toLearn:{key:number, name:string, body:string }[] = [{key:1, name:"Aspiring Investors", body:"Are you an individual who is looking for investment opportunities, forex trading is a way to diversify your investment portfolio?"}, {key:2, name:"Financial Enthusiast", body:"Are you someone who has a genuine interest in financial markets and enjoys learning about economic indicators, currency movements, and global financial trends?"}, {key:3, name:"Entrepreneur and Business Professional", body:"Are you an entrepreneur or business professional who is seeking ways to maximize their financial resources? These is a means to leverage your financial skills and potentially generate additional income beyond all other primary business ventures"}, {key:4, name:"Side-Hustle Seekers", body:"Are you actively seeking ways to supplement your current earnings, exploring forex trading as a side hustle? This is the potential for additional financial gains and flexibility"}]
 
 
     var values:{key:number, head:string, list:string}[] = [{key:1, head:"Forex Foundation", list:"What is forex? History of FOrex, Why you should start trading forex, Forex Participants, Forex Influnecers, Currency Pairs, Brokers, Trading Session"},{key:2, head:"Forex Mastery", list:"Charting tools, Candlestick Patterns, Chart Patterns, Technical Anaylsis, Support and Resistance, Trend and Trendlines, Indicators, Fundamental Analysis"},{key:3, head:"Trading Strategy", list:"How to use MT4, How to create an account, Choosing the right Brokers, Entry Strategy, Price Action Strategy, Trading Success Tips, Risk Management"}, {key:4, head:"Extra BONUSES", list:"1 Month Trade Signal, Cheatsheet to help you turn $10 to $500 in 90 days with proper risk management, 3 Ebooks that will change your life and help you become a winning trader, 3 Months Mentorship, $5,000 Live account for the best student"}]
@@ -26,11 +26,11 @@ function FrontPage() {
                 </div>
                 <div className="absolute h-max top-10 md:top-24 -right-2 md:-right-8 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
                     <p className='font-bold'>14 Years</p>
-                    <p>of experience on Investing and Forex Trading</p>
+                    <p>of experience in Investing and Forex Trading</p>
                 </div>
                 <div className="absolute h-max -bottom-6 left-32 w-[160px] lg:w-max p-1 bg-white bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-xs">
                     <p className='font-bold'>Author</p>
-                    <p>Understanding Bitcoin: A Step-by-step guide to investing in Bitcoin</p>
+                    <p>Crypto Investors Play Book</p>
                 </div>
             </div>
         </div>
@@ -54,6 +54,7 @@ function FrontPage() {
                             <p>{val.list}</p>
                         </div>
                     ))}
+                {/* <Image src="/ForexExpo.jpg" alt='Forex Expo' width={200} height={220}/> */}
                 <button className='px-10 p-4 md:hidden font-bold text-xs rounded-full bg-green-400 text-black my-6'>Sign up for training</button>
             </div>
         </div>

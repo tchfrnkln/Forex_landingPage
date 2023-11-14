@@ -2,7 +2,7 @@ import React from 'react'
 
 function Author() {
 
-    var shorts:{key:number, name:string}[] = [{key:1, name:"Entrepreneurial Visionary and Crypto Pioneer"}, {key:2, name:"Philanthropic Innovator and Financial Mentor"}, {key:3, name:"Media Mogul and Global Event Organizer"}, {key:4, name:"Educational Trailblazer and Business Educator"}, {key:5, name:"Multifaceted Professional and Relationship Advocate"}]
+    var shorts:{key:number, name:string}[] = [{key:1, name:"Entrepreneurial Visionary and Crypto Pioneer"}, {key:2, name:"Financial Mentor"}, {key:3, name:"Media Mogul and Global Event Organizer"}, {key:4, name:"Educational Trailblazer and Business Educator"}, {key:5, name:"Multifaceted Professional and Relationship Advocate"}]
 
   return (
     <main className='p-6 flex flex-col justify-center items-center bg-gradient-to-br from-white to-purple-500 text-black'>

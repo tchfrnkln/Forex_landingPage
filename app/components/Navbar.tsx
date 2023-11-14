@@ -6,7 +6,7 @@ import PayBtn from './PayBtn';
 
 function Navbar() {
 
-    var list:{key:number, name:string}[] = [{key:1, name:"Whos the training for?"}, {key:2, name:"Program"}, {key:3, name:"Review"}, {key:4, name:"Aurthor"}]
+    var list:{key:number, name:string}[] = [{key:1, name:"Who is the training for?"}, {key:2, name:"Program"}, {key:3, name:"Review"}, {key:4, name:"Author"}]
   return (
     <main className='w-full flex justify-between md:items-center p-6 relative'>
         <div className='font-bold'>C-Chu Global</div>
