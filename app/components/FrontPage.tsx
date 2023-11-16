@@ -10,7 +10,7 @@ function FrontPage() {
     var values:{key:number, head:string, list:string}[] = [{key:1, head:"Forex Foundation", list:"What is forex? History of FOrex, Why you should start trading forex, Forex Participants, Forex Influnecers, Currency Pairs, Brokers, Trading Session"},{key:2, head:"Forex Mastery", list:"Charting tools, Candlestick Patterns, Chart Patterns, Technical Anaylsis, Support and Resistance, Trend and Trendlines, Indicators, Fundamental Analysis"},{key:3, head:"Trading Strategy", list:"How to use MT4, How to create an account, Choosing the right Brokers, Entry Strategy, Price Action Strategy, Trading Success Tips, Risk Management"}, {key:4, head:"Extra BONUSES", list:"1 Month Trade Signal, Cheatsheet to help you turn $10 to $500 in 90 days with proper risk management, 3 Ebooks that will change your life and help you become a winning trader, 3 Months Mentorship, $5,000 Live account for the best student"}]
 
   return (
-    <main className='px-4 md:px-12'>
+    <main className='px-4 md:px-12 text-white'>
         <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-2 py-2'>
             <div className='p-2 md:p-6 rounded w-full'>
                 <p className='text-xs'>a chance to invest in yourself and your future</p>

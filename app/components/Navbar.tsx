@@ -21,7 +21,7 @@ function Navbar() {
 
     var list:{key:number, name:string}[] = [{key:1, name:"Who is the training for?"}, {key:2, name:"Program"}, {key:3, name:"Review"}, {key:4, name:"Author"}]
   return (
-    <main className='w-full flex justify-between md:items-center p-6 relative'>
+    <main className='w-full flex justify-between md:items-center p-6 relative text-white'>
         <div className='font-bold text-white'>C-Chu Global</div>
         <div className='md:hidden cursor-pointer' onClick={e => setnavtog(!navtog)}>
             <HiMenuAlt3/>
